@@ -1,0 +1,94 @@
+.regmain {
+    width: 90%;
+    height: 150vh;
+    
+    
+   
+ 
+ /* background-color: aquamarine; */
+padding: 300px;
+background-color: #f8f4f0;
+  
+}
+.regmain h3{
+    /* margin-top: 20px; */
+    display: block;
+  width: 600px;
+    margin-bottom: 30px;
+text-align: center;
+    /* background-color: #125c18; */
+    color: #bc6c25;
+    
+ @media (min-width: 300px)  and (max-width: 992px){
+    width: 300px;
+    font-size: small;
+    margin-left: -60px;
+    text-align: left;
+ }
+
+}
+.regdiv{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .regform form{
+    border: 1px soild blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form div{
+    margin-bottom: 40px;
+    display: flex;
+    @media (min-width: 300px)  and (max-width: 992px){
+        flex-direction: column;
+    }
+}
+
+label{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    @media (min-width: 300px)  and (max-width: 992px){
+        font-size: 15px;
+        margin-left: 0px;
+    }
+}
+input{
+    width: 300px;
+    height: 40px;
+    margin-left: 60px;
+    
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    align-items: center;
+    padding-left: 5px;
+    @media (min-width: 300px)  and (max-width: 992px){
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #41362d;
+    background-color: #e4a76b;
+ border-radius: 5px;
+    border: 2px solid #bc6c25;
+    /* border: none; */
+
+}
+button:hover{
+    background-color:#eec59b ;
+    color: #bc6c25;
+}

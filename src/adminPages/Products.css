@@ -1,0 +1,33 @@
+div {
+  width: 80%;
+}
+div h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  color: #bc6c25;
+  @media (min-width: 300px)  and (max-width: 992px){
+    font-size: 20px;
+  }
+}
+table {
+  padding-left: 30px;
+  color: #41362d;
+}
+th,
+td {
+  padding-left: 45px;
+  text-align: left;
+}
+th {
+  color: #41362d;
+}
+td {
+  font-size: 15px;
+}
+
+img {
+  height: 50px;
+  width: auto;
+}
