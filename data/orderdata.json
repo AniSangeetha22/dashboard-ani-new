@@ -1,0 +1,24 @@
+{
+  "orders": [
+    {
+      "id": "b7f7",
+      "orderid": 1,
+      "name": "Samsung Galaxy",
+      "des": "Samsung Galaxy Z Flip 256gb",
+      "ftype": "SamsungGalaxy",
+      "amt": 854,
+      "subamt": 854,
+      "value": 1
+    },
+    {
+      "id": "da31",
+      "orderid": 2,
+      "name": "Samsung S24",
+      "des": "Samsung S24 128GB",
+      "ftype": "Samsung Galaxy",
+      "amt": 556,
+      "subamt": 556,
+      "value": 1
+    }
+  ]
+}
