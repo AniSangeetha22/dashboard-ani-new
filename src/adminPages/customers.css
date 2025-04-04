@@ -1,41 +1,49 @@
-div {
-  width: 80%;
-  @media (min-width: 300px)  and (max-width: 992px)  {
+.customers-main {
+   
     width: 100%;
-  }
-}
-
-div h3 {
-  font-size: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding-left: 30px;
-  color: #bc6c25;
-  @media (min-width: 300px)  and (max-width: 992px){
-    font-size: 20px;
-    padding-left: 10px;
-  }
-}
-
-table {
-  padding-left: 30px;
-  color: #41362d;
-  @media (min-width: 300px)  and (max-width: 992px){
- 
-    padding-left: 10px;
-  }
-}
-
-th,
-td {
-   padding-left: 45px;
-  text-align: left;
-}
-
-th {
+    height: 100vh;
+    overflow: auto;
+    margin-top: 40px;
+   
+ }
+ div h3{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: #bc6c25;
+ }
+ table {
+    width: 90%;
+    /* height: 100vh; */
+    padding-left: 30px;
     color: #41362d;
-}
+    object-fit: fill;
 
-td {
-  font-size: 15px;
-}
+     @media screen  and (max-width:768px){
+        width: 100%;
+    }
+   
+
+ }
+ thead{
+    font-size: 20px;
+   
+ }
+ thead tr{
+    margin-bottom: 30px;
+
+ }
+ thead tr th{
+    text-align: left;
+    
+ }
+ tbody{
+    font-size: 20px;
+   
+  
+ }
+ tbody tr td{
+    text-align: left;
+
+ }

@@ -98,8 +98,14 @@ export const ProductProvider = ({ children }) => {
     console.log("Product item");
 
     console.log(product);
+    setCart([...cart, product])
+    let localStorageCart = [...cart,product];
+    localStorage.setItem("cart", JSON.stringify(localStorageCart));
 
-    setCart([...cart, product]);
+   ;
+
+    
+
 
     const addOrder = {
       orderid,
@@ -468,6 +474,7 @@ export const ProductProvider = ({ children }) => {
         addonlyOrders,
         cart,
         addCart,
+        deleteItem,
         increaseQuantity,
         decreaseQuantity,
         cartlength,
